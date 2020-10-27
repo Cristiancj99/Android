@@ -8,7 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/boton_c"
+        android:layout_width="102dp"
+        android:layout_height="95dp"
+        android:background="@null"
+        android:fontFamily="@font/open_sans"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/boton_igual"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -19,28 +35,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="102dp"
-        android:layout_height="95dp"
-        android:background="@null"
-        android:fontFamily="@font/open_sans"
-        android:text="C"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
-
-    <Button
-        android:id="@+id/button18"
+        android:id="@+id/boton7"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -48,15 +48,15 @@
         android:text="7"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/boton8"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintTop_toBottomOf="@+id/boton_c"
+        app:layout_constraintVertical_bias="0.005" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/boton_punto"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -65,14 +65,14 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993" />
+        app:layout_constraintVertical_bias="0.992" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/boton_sumar"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -80,15 +80,15 @@
         android:text="+"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/boton3"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
         app:layout_constraintVertical_bias="0.844" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/boton3"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -96,15 +96,15 @@
         android:text="3"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
         app:layout_constraintVertical_bias="0.844" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/boton0"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -113,14 +113,14 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/boton00"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/boton2"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -128,15 +128,15 @@
         android:text="2"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/boton3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
         app:layout_constraintVertical_bias="0.844" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/boton_menos"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -144,15 +144,15 @@
         android:text="-"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/boton_sumar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
         app:layout_constraintVertical_bias="0.694" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/boton6"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -160,15 +160,15 @@
         android:text="6"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintBottom_toTopOf="@+id/boton3"
+        app:layout_constraintEnd_toStartOf="@+id/boton_menos"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toEndOf="@+id/boton5"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.693" />
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/boton5"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -176,15 +176,15 @@
         android:text="5"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/boton2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
         app:layout_constraintVertical_bias="0.694" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/boton00"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -193,14 +193,14 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.993" />
 
     <Button
-        android:id="@+id/button30"
+        android:id="@+id/boton1"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -208,15 +208,15 @@
         android:text="1"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/boton2"
+        app:layout_constraintHorizontal_bias="0.018"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/boton4"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -224,15 +224,15 @@
         android:text="4"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/boton5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintTop_toBottomOf="@+id/boton7"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/boton8"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -240,15 +240,15 @@
         android:text="8"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:layout_constraintVertical_bias="0.545" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/boton_multiplicar"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -256,15 +256,15 @@
         android:text="*"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/boton_menos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:layout_constraintVertical_bias="0.544" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/boton9"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -272,15 +272,15 @@
         android:text="9"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/boton_multiplicar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/boton_masmenos"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -288,15 +288,15 @@
         android:text="+/-"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintBottom_toTopOf="@+id/boton8"
+        app:layout_constraintEnd_toStartOf="@+id/boton_porcentaje"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/boton_porcentaje"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -304,15 +304,15 @@
         android:text="%"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintBottom_toTopOf="@+id/boton9"
+        app:layout_constraintEnd_toStartOf="@+id/boton_dividir"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/boton_dividir"
         android:layout_width="102dp"
         android:layout_height="95dp"
         android:background="@null"
@@ -320,22 +320,24 @@
         android:text="/"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/boton_multiplicar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="121dp"
-        android:layout_height="50dp"
-        android:text="TextView"
+        android:id="@+id/sumando2"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="right"
         android:textColor="#FFFFFF"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.193" />
@@ -353,16 +355,73 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="121dp"
-        android:layout_height="42dp"
-        android:text="TextView"
+        android:id="@+id/sumando_1"
+        android:layout_width="323dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="right"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="251dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="103dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="207dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="306dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="346dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="442dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="534dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="632dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
