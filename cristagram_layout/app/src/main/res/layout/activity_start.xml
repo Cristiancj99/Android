@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO(13): Definir un LinearLayout, con ancho y altura de toda la pantalla, centrado, con un margen interior de 12 dp, vertical y que muestre "StartActivity" DONE-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="12dp"
+    tools:context=".StartActivity">
+    <!-- TODO(14): Mostrar el logo, con 50 píxeles de altura DONE-->
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:src="@drawable/logo" />
+    <!-- TODO(15): Crear un Button con texto de logarse, cuya anchura sea toda la disponible, con altura ajustable, un margen superior de 15dp, color de fuente blanco y color de fondo drawable/button_background DONE-->
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/login"
+        android:layout_marginTop="15dp"/>
+    <!-- TODO(16): Mismo componente que TODO 15 con texto registrar DONE-->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/register"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>
+
+
+
